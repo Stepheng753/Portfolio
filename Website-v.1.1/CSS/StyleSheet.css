@@ -1,0 +1,16 @@
+@import 'header.css';
+@import 'redirects.css';
+
+:root {
+	--color-grad-1: #568ea3;
+	--color-grad-2: #90d4e0;
+	--color-grad-3: #ffe8d1;
+}
+
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(var(--color-grad-1), var(--color-grad-2), var(--color-grad-3));
+	overflow: hidden;
+}

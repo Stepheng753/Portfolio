@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Personal Website for Stephen Giang" />
+		<meta name="keywords" content="Stephen Giang" />
+		<meta name="robots" content="noindex" />
+		<base href="Home.html" />
+		<link rel="stylesheet" href="CSS/style.css" />
+		<link rel="icon" href="External/Icon.svg" />
+		<title>Stephen Giang</title>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<noscript> Please Enable JavaScript </noscript>
+
+			<header>
+				<h1 id="headerH1"><a id="headerA" href="Home.html"> Stephen Giang </a></h1>
+			</header>
+			<nav id="horzNav">
+				<p>
+					<a href="Home.html"> Home</a>
+					<a href="Projects.html"> Projects</a>
+					<a href="Resume.html"> Resume</a>
+					<a href="Transcripts.html"> Transcripts</a>
+					<a href="Biography.html"> Biography</a>
+					<a href="Tutoring.html"> Tutoring</a>
+					<a href="Contact.html"> Contact</a>
+				</p>
+			</nav>
+
+			<object
+				data="../../../Personal-Projects/JavaScript/p5.js/Circles/Welcome/Welcome.html"
+				width="1000px"
+				height="225px"
+				style="padding-top: 10px"
+			></object>
+			<img src="External/HotAir.jpg" width="250" align="right" style="padding: 10px 10px 10px 10px" />
+			<h2>Welcome to my Very First Website!</h2>
+			<p id="Intro">
+				<h3>This is a plaaceholder for the mobile version of my actual website.  Please check out the Desktop Version for the full experience.</h3> This website is a host for my
+				Personal Projects along with simply anything I want to show to the world. I have really found a great
+				passion in programming, especially the web development side of it, over the past 3 years. I love web
+				development because its a way for me to make visualizations of my entire programming journey, instead of
+				just printing statements. One thing, I very much struggle in is being creative.
+				This website is a raw website with hardly any design or
+				styling, and is purely functional. This time, through the help of my friends for design purposes, I
+				made my other website entirely using Vanilla JS, HTML, and CSS. I already do know React Native, so I might
+				be making a third version that is made through React, that way the mobile and desktop version can be consistent. Please feel free to navigate through my website
+				and contact me if you have any suggestions or would like to see anything regarding my website. I always
+				have an open ear for ways to make my website more interactive and fun.
+			</p>
+
+			<b>
+				<form method="GET" action="PHP/emailComments.php" id="commentForm">
+					Name: <input type="text" name="name" size="40" maxlength="40" /> <br /><br />
+					Email: <input type="text" name="emailAddress" size="40" maxlength="40" /> <br /><br />
+					Comments/Suggestions For my Website: <br />
+					<textarea name="comments" row="20" cols="50"></textarea>
+					<br />
+					<input type="submit" name="submit" value="Submit" />
+					<input type="reset" name="reset" value="Reset" />
+				</form>
+			</b>
+			<footer>
+				<address>Stepheng753@Gmail.com</address>
+				<small><a onclick="window.location.reload(true);">Copy Right 2020</a></small>
+			</footer>
+		</div>
+	</body>
+</html>
