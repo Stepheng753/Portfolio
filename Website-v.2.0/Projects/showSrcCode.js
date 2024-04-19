@@ -46,9 +46,19 @@ function displayFilePaths() {
 					'</div>' +
 					'\n';
 
-				for (let fileCt = 0; fileCt < projectsJSON[projectKey].Files[subDirCt].File.length; fileCt++) {
+				for (
+					let fileCt = 0;
+					fileCt < projectsJSON[projectKey].Files[subDirCt].File.length;
+					fileCt++
+				) {
 					setSrcCodeStr =
-						"displayCode(getFilePath('" + projectKey + "', " + subDirCt + ', ' + fileCt + '), code, true);';
+						"displayCode(getFilePath('" +
+						projectKey +
+						"', " +
+						subDirCt +
+						', ' +
+						fileCt +
+						'), code, true);';
 					setOutputStr = "displayOutput('" + projectKey + "', " + subDirCt + ');';
 					focusOutput = 'output.focus();';
 
@@ -85,21 +95,21 @@ function displayCode(file, domElement, domHTML) {
 }
 
 function displayOutput(project, folderIndex) {
-	let files = projectsJSON[project].Files[folderIndex];
-	let outputFound = false;
-	for (let i = 0; i < files.File.length; i++) {
-		let file = files.File[i];
-		if (output.src.includes(file)) {
-			return;
-		}
-		if (file.includes('.html')) {
-			output.src = getFilePath(project, folderIndex, i);
-			outputFound = true;
-		}
-	}
-	if (!outputFound) {
-		output.data = '';
-	}
+	// let files = projectsJSON[project].Files[folderIndex];
+	// let outputFound = false;
+	// for (let i = 0; i < files.File.length; i++) {
+	// 	let file = files.File[i];
+	// 	if (output.src.includes(file)) {
+	// 		return;
+	// 	}
+	// 	if (file.includes('.html')) {
+	// 		output.src = getFilePath(project, folderIndex, i);
+	// 		outputFound = true;
+	// 	}
+	// }
+	// if (!outputFound) {
+	// 	output.data = '';
+	// }
 }
 
 function stringToHTML(src, isHTML = false) {
