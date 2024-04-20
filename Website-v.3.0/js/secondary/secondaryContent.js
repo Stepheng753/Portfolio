@@ -12,8 +12,8 @@ let secondary_content = {
 		p: 'Chess Project',
 	},
 	resume: {
-		h1: 'Resume',
-		p: 'This is My Resume',
+		h1: 'Download My Resume Here!',
+		p: '<a href="./assets/Resume.pdf">Click Here for My Resume</a>',
 		src: './assets/Resume.pdf',
 	},
 	contact: {
@@ -81,14 +81,13 @@ function createAboutContent() {
 function createProjectsContent() {
 	for (let i = 0; i < projectFileInfo.length; i++) {
 		createProjectContainer(projectFileInfo[i]);
-		scrollBarColorChange(i);
 	}
 }
 
 function createResumeContent() {
-	let object = document.createElement('object');
-	object.classList.add('pdf');
+	let object = createElement('object', ['pdf']);
 	object.data = secondary_content.resume.src;
+	object.appendChild(createCardWithH1P(secondary_content.resume.h1, secondary_content.resume.p));
 	createHierarchy([secondaryCarousel, createContainer(), createHeight90(), object]);
 }
 

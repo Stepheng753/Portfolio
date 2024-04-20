@@ -1,6 +1,5 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC, L]
+RewriteCond %{REQUEST_URI} !^/Portfolio/Website-v\.3\.0/
+RewriteRule ^(.*)$ /$1 [L]
 
 Options +Indexes

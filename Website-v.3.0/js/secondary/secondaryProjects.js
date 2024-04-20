@@ -57,16 +57,6 @@ function updateProjectContent(project, fileNameH1, codeCard) {
 	}
 }
 
-function scrollBarColorChange(index) {
-	let codeCard = document.getElementsByClassName('code-card')[index];
-	codeCard.addEventListener('scroll', () => {
-		document.body.style.setProperty('--scrollbar-color', '#ed254e');
-	});
-	codeCard.addEventListener('scrollend', () => {
-		document.body.style.setProperty('--scrollbar-color', '#d6dee1');
-	});
-}
-
 function projectSlide() {
 	if (!primarySecondaryBothMoving) {
 		for (let j = 0; j < projectLinesContainer.getElementsByTagName('h2').length; j++) {

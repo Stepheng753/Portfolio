@@ -149,6 +149,9 @@ function setFileIndices(skipIndex = -1) {
 
 function initFilePaths() {
 	let parent_dir = '../';
+	if (window.location.hostname.includes('127') || window.location.hostname.includes('local')) {
+		parent_dir = '../../';
+	}
 	setFileIndices();
 	for (let i = 0; i < projectFileInfo.length; i++) {
 		for (let j = 0; j < projectFileInfo[i].filePaths.length; j++) {
