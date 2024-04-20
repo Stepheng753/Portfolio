@@ -29,9 +29,10 @@ function reverseChildren(carousel) {
 	}
 }
 
-function createElement(tag, appendClassList = []) {
+function createElement(tag, appendClassList = [], innerHTML = '') {
 	let element = document.createElement(tag);
 	element.classList.add(...appendClassList);
+	element.innerHTML = innerHTML;
 	return element;
 }
 
@@ -48,15 +49,18 @@ function createCard(appendClassList = []) {
 }
 
 function createH1(h1Text, appendClassList = []) {
-	let h1 = createElement('h1', ['heading-1', 'bold', ...appendClassList]);
-	h1.innerHTML = h1Text;
-	return h1;
+	return createElement('h1', ['heading-1', 'bold', ...appendClassList], h1Text);
 }
 
 function createP(pText, appendClassList = []) {
-	let p = createElement('p', ['paragraph', ...appendClassList]);
-	p.innerHTML = pText;
-	return p;
+	return createElement('p', ['paragraph', ...appendClassList], pText);
+}
+
+function createA(aText, appendClassList = [], href) {
+	let a = createElement('a', appendClassList, aText);
+	a.href = href;
+	a.target = '_blank';
+	return a;
 }
 
 function createCardWithH1P(h1Text, pText, appendClassList = []) {

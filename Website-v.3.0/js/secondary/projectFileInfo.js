@@ -3,13 +3,13 @@ projectLinesContainer = projectLinesContainer[projectLinesContainer.length - 1];
 
 let projectFileInfo = [
 	{
-		projectName: 'ChessAIv3',
+		projectName: 'ChessAI',
 		filePaths: [
-			'Personal-Projects/p5.js/ChessAI/ChessAIv3/piece.js',
-			'Personal-Projects/p5.js/ChessAI/ChessAIv3/index.js',
-			'Personal-Projects/p5.js/ChessAI/ChessAIv3/helperFunctions.js',
-			'Personal-Projects/p5.js/ChessAI/ChessAIv3/chessGame.js',
-			'Personal-Projects/p5.js/ChessAI/ChessAIv3/chessAI.js',
+			'Personal-Projects/p5.js/ChessAI/ChessAIv3/Piece.js',
+			'Personal-Projects/p5.js/ChessAI/ChessAIv3/Index.js',
+			'Personal-Projects/p5.js/ChessAI/ChessAIv3/HelperFunctions.js',
+			'Personal-Projects/p5.js/ChessAI/ChessAIv3/ChessGame.js',
+			'Personal-Projects/p5.js/ChessAI/ChessAIv3/ChessAI.js',
 			'Personal-Projects/p5.js/ChessAI/ChessAIv3/ChessAI.html',
 		],
 	},
@@ -62,10 +62,7 @@ let projectFileInfo = [
 	},
 	{
 		projectName: 'MazeGen',
-		filePaths: [
-			'Personal-Projects/p5.js/MazeGen/MazeGen.js',
-			'Personal-Projects/p5.js/MazeGen/MazeGen.html',
-		],
+		filePaths: ['Personal-Projects/p5.js/MazeGen/MazeGen.js', 'Personal-Projects/p5.js/MazeGen/MazeGen.html'],
 	},
 	{
 		projectName: 'OpticalIllusion',
@@ -77,7 +74,7 @@ let projectFileInfo = [
 	{
 		projectName: 'Rockets',
 		filePaths: [
-			'Personal-Projects/p5.js/Rockets/sketch.js',
+			'Personal-Projects/p5.js/Rockets/SketchRockets.js',
 			'Personal-Projects/p5.js/Rockets/Rocket.js',
 			'Personal-Projects/p5.js/Rockets/Population.js',
 			'Personal-Projects/p5.js/Rockets/DNA.js',
@@ -87,8 +84,8 @@ let projectFileInfo = [
 	{
 		projectName: 'SlidePuzzle',
 		filePaths: [
-			'Personal-Projects/p5.js/SlidePuzzle/slidePuzzle.js',
-			'Personal-Projects/p5.js/SlidePuzzle/slidePuzzle.html',
+			'Personal-Projects/p5.js/SlidePuzzle/SlidePuzzle.js',
+			'Personal-Projects/p5.js/SlidePuzzle/SlidePuzzle.html',
 		],
 	},
 	{
@@ -128,8 +125,7 @@ function setProjectNames() {
 				secondarySlide();
 			}
 		});
-		let h2 = createElement('h2', ['heading-2', 'code-link']);
-		h2.innerHTML = projectFileInfo[i].projectName;
+		let h2 = createElement('h2', ['heading-2', 'code-link'], projectFileInfo[i].projectName);
 		if (i % 2 == 0) {
 			currProjectLine = createElement('div', ['project-line']);
 			projectLinesContainer.appendChild(currProjectLine);
