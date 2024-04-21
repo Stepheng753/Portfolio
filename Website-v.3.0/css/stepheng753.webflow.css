@@ -22,7 +22,8 @@ body {
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	min-width: 525px;
+	width: 40vw;
+	min-width: 450px;
 	height: 100vh;
 	display: flex;
 }
@@ -46,7 +47,6 @@ body {
 .secondary-content.section {
 	justify-content: flex-start;
 	align-items: center;
-	width: 40vw;
 }
 
 .container {
@@ -106,18 +106,17 @@ body {
 }
 
 .card {
-	flex-flow: column;
-	justify-content: flex-start;
-	align-items: center;
 	border: 2px solid var(--blue-bg-secondary);
 	background-color: var(--card-white);
 	color: var(--blue-bg-secondary);
 	border-radius: 20px;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: center;
 	width: 100%;
-	min-width: 475px;
 	padding: 50px 30px;
-	box-shadow: 0 2px 5px 2px #8a847e;
 	display: flex;
+	box-shadow: 0 2px 5px 2px #8a847e;
 }
 
 .height-90 {
@@ -136,9 +135,9 @@ body {
 }
 
 .paragraph {
+	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	width: 100%;
 }
 
 .arrow {
@@ -166,8 +165,10 @@ body {
 }
 
 .carousel {
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
-	min-width: 475px;
 	position: relative;
 	top: 0;
 	bottom: 0;
@@ -276,38 +277,79 @@ body {
 }
 
 .nav-group {
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
 	width: 80%;
+	display: flex;
 }
 
-@media screen and (max-width: 1375px) {
+@media screen and (max-width: 1225px) {
 	.section {
+		flex: 1 0 auto;
+		min-width: 450px;
+	}
+
+	.navigation.section {
+		flex: 0 auto;
+		width: 100px;
 		min-width: 0;
-		height: auto;
+	}
+
+	.link-container {
+		justify-content: center;
+		align-items: center;
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+
+	.heading-1 {
+		font-size: 30px;
+	}
+
+	.heading-1.nav-h1 {
+		display: none;
+	}
+
+	.folder {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.carousel {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.nav-group {
+		width: 55px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.section {
+		flex-flow: row;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100vw;
+		height: 40vh;
 	}
 
 	.body {
 		flex-flow: column;
 		justify-content: flex-start;
 		align-items: stretch;
-		overflow: hidden;
 	}
 
 	.navigation.section {
-		flex-flow: row;
-		justify-content: center;
-		align-items: flex-start;
+		justify-content: flex-start;
+		align-items: center;
 		width: 100vw;
-		min-width: 0;
 		height: 20vh;
 	}
 
-	.primary-content.section,
-	.secondary-content.section {
-		flex-flow: row;
-		justify-content: space-between;
-		align-items: center;
-		width: 100vw;
-		height: 40vh;
+	.primary-content.section {
+		flex: 0 auto;
 	}
 
 	.container {
@@ -320,28 +362,37 @@ body {
 	}
 
 	.container.nav-container {
-		justify-content: center;
-		align-items: center;
+		flex-flow: row;
+		width: 100vw;
+		height: 100%;
+		min-height: auto;
 	}
 
 	.link-container {
 		border-top-style: none;
 		flex-flow: column;
+		justify-content: flex-start;
+		align-items: center;
 		width: 20vw;
+		height: 100%;
 	}
 
 	.heading-1 {
-		font-size: 30px;
+		font-size: 20px;
+	}
+
+	.heading-1.nav-h1 {
+		display: block;
 	}
 
 	.folder {
-		margin-right: 0;
+		width: 55px;
 	}
 
 	.card {
-		padding: 24px 30px;
 		height: 100%;
-		max-height: 40vh;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 
 	.height-90 {
@@ -352,13 +403,12 @@ body {
 	}
 
 	.height-90.border-right {
-		border-right: 0 #000;
 		border-bottom: 1px solid var(--red);
+		border-right-style: none;
 	}
 
 	.arrow.down {
 		bottom: auto;
-		left: auto;
 		right: 10px;
 		transform: rotate(90deg);
 	}
@@ -366,36 +416,22 @@ body {
 	.arrow.up {
 		top: auto;
 		left: 10px;
-		right: auto;
 		transform: rotate(270deg);
 	}
 
 	.carousel {
-		justify-content: center;
+		flex-flow: row;
+		justify-content: flex-start;
 		align-items: center;
 		width: auto;
-		min-width: auto;
 		height: 100%;
 		display: flex;
 	}
 
 	.nav-group {
-		flex: 1;
-		justify-content: center;
-		align-items: center;
+		flex-flow: row;
 		width: auto;
-		display: flex;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.heading-1 {
-		font-size: 20px;
-	}
-
-	.card {
-		min-width: 0;
-		padding: 20px 30px;
+		height: 100%;
 	}
 }
 
@@ -405,6 +441,8 @@ body {
 	}
 
 	.link-container {
+		justify-content: center;
+		align-items: center;
 		width: 100%;
 		height: 100%;
 	}

@@ -121,13 +121,13 @@ function createContactContent() {
 	]);
 
 	let fb_link = createA(secondary_content.contact.facebook, [], secondary_content.contact.facebook);
-	let social_p1 = linkParentToChildren(createP('Facebook: ', ['contact-link']), [fb_link]);
+	let social_p1 = linkParentToChildren(createP('Facebook: <br />', ['contact-link']), [fb_link]);
 	let ig_link = createA(secondary_content.contact.instagram, [], secondary_content.contact.instagram);
-	let social_p2 = linkParentToChildren(createP('Instagram: ', ['contact-link']), [ig_link]);
+	let social_p2 = linkParentToChildren(createP('Instagram: <br />', ['contact-link']), [ig_link]);
 	let LI_link = createA(secondary_content.contact.linkedIn, [], secondary_content.contact.linkedIn);
-	let social_p3 = linkParentToChildren(createP('LinkedIn: ', ['contact-link']), [LI_link]);
+	let social_p3 = linkParentToChildren(createP('LinkedIn: <br />', ['contact-link']), [LI_link]);
 	let CT_link = createA(secondary_content.contact.tutoring, [], secondary_content.contact.tutoring);
-	let social_p4 = linkParentToChildren(createP('Tutoring: ', ['contact-link']), [CT_link]);
+	let social_p4 = linkParentToChildren(createP('Tutoring: <br />', ['contact-link']), [CT_link]);
 
 	createHierarchy([
 		secondaryCarousel,

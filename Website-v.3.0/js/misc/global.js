@@ -3,7 +3,7 @@ function sleep(ms) {
 }
 
 function horizontalSlide() {
-	return document.body.clientWidth <= 1375;
+	return document.body.clientWidth <= 1000;
 }
 
 function stringToHTML(src, isHTML = false) {
