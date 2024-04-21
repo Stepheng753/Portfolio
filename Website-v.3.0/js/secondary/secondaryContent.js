@@ -108,10 +108,10 @@ function createResumeContent() {
 function createContactContent() {
 	let a_tel = createElement('a', [], secondary_content.contact.phone);
 	a_tel.href = 'tel:' + secondary_content.contact.phone;
-	let contact_p1 = linkParentToChildren(createP('Call Me At: ', ['contact-link']), [a_tel]);
+	let contact_p1 = linkParentToChildren(createP('Call Me At: <br />', ['contact-link']), [a_tel]);
 	let a_email = createElement('a', [], secondary_content.contact.email);
 	a_email.href = 'mailto:' + secondary_content.contact.email;
-	let contact_p2 = linkParentToChildren(createP('Email Me At: ', ['contact-link']), [a_email]);
+	let contact_p2 = linkParentToChildren(createP('Email Me At: <br />', ['contact-link']), [a_email]);
 
 	createHierarchy([
 		secondaryCarousel,
