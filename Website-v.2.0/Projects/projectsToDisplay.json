@@ -1,7 +1,7 @@
 {
 	"ChessAI": {
 		"Description": "This is a Chess Game with an entire frontend and AI",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/ChessAI/ChessAIv3/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/ChessAI/ChessAIv3/",
 		"Files": [
 			{
 				"File": [
@@ -39,7 +39,7 @@
 	},
 	"Circles": {
 		"Description": "This recreates an image using circles",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/Circles/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/Circles/",
 		"Files": [
 			{
 				"File": ["Circle.js", "FullColor.html", "FullColor.js", "HotAirBalloon.jpg"],
@@ -50,7 +50,7 @@
 	},
 	"DoublePendulum": {
 		"Description": "This is a simulation of a double pendulum",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/Double Pendulum/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/Double Pendulum/",
 		"Files": [
 			{
 				"File": ["DoublePendulum.html", "DoublePendulum.js"],
@@ -61,7 +61,7 @@
 	},
 	"EstimatePi": {
 		"Description": "This estimates Pi using random points placed within a square and a circle cirucumscribed within it",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/EstimatePi/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/EstimatePi/",
 		"Files": [
 			{
 				"File": ["EstimatePi.html", "EstimatePi.js"],
@@ -72,7 +72,7 @@
 	},
 	"HilbertCurve": {
 		"Description": "This is a visualization of a hilbert curve given some order",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/HilbertCurve/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/HilbertCurve/",
 		"Files": [
 			{
 				"File": ["HilbertCurve.html", "HilbertCurve.js", "PathFunctions.js"],
@@ -91,7 +91,7 @@
 	},
 	"MazeGen": {
 		"Description": "This is a maze generator",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/MazeGen/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/MazeGen/",
 		"Files": [
 			{
 				"File": ["MazeGen.html", "MazeGen.js"],
@@ -102,7 +102,7 @@
 	},
 	"OpticalIllusion": {
 		"Description": "Straight Lines that Look like they're moving in a circle",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/OpticalIllusion/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/OpticalIllusion/",
 		"Files": [
 			{
 				"File": ["OpticalIllusion.html", "OpticalIllusion.js"],
@@ -113,7 +113,7 @@
 	},
 	"Rockets": {
 		"Description": "This is a visualization of a simple genetic machine learning algorithm",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/Rockets/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/Rockets/",
 		"Files": [
 			{
 				"File": ["DNA.js", "Population.js", "Rocket.js", "Rockets.html", "sketch.js"],
@@ -124,7 +124,7 @@
 	},
 	"SlidePuzzle": {
 		"Description": "This is a slide puzzle game",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/SlidePuzzle/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/SlidePuzzle/",
 		"Files": [
 			{
 				"File": ["Icon.png", "slidePuzzle.html", "slidePuzzle.js", "slidePuzzle.php"],
@@ -135,7 +135,7 @@
 	},
 	"SnakeGame": {
 		"Description": "This is a Snake Game",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/SnakeGame/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/SnakeGame/",
 		"Files": [
 			{
 				"File": ["Grid.js", "Snake.js", "SnakeGame.html", "SnakeGame.js", "mouse.png"],
@@ -146,7 +146,7 @@
 	},
 	"SortingAlgorithms": {
 		"Description": "This is a visualization of multiple Sorting Algorithms",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/Sorting Algorithms/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/Sorting Algorithms/",
 		"Files": [
 			{
 				"File": ["BubbleSort.html", "BubbleSort.js"],
@@ -169,7 +169,7 @@
 	},
 	"TimesTable": {
 		"Description": "This is a times table game",
-		"Directory": "../../../../Personal-Projects/Web Development/p5.js/TimesTable/",
+		"Directory": "../../../../PersonalProjects/Web Development/p5.js/TimesTable/",
 		"Files": [
 			{
 				"File": ["TimesTable.html", "TimesTable.js", "TimesTable.php"],

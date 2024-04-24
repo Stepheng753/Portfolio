@@ -2,7 +2,7 @@
 
 import os
 cur_parent = os.getcwd()
-parent = '../../../../Personal-Projects/p5.js/'
+parent = '../../../../PersonalProjects/p5.js/'
 os.chdir(parent)
 
 def custom_sort(file_path):
