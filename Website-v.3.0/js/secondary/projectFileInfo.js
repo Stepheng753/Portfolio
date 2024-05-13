@@ -108,6 +108,11 @@ let projectFileInfo = [
 			'PersonalProjects/p5.js/SortingAlgorithms/MergeSort/MergeSort.html',
 			'PersonalProjects/p5.js/SortingAlgorithms/QuickSort/QuickSort.js',
 			'PersonalProjects/p5.js/SortingAlgorithms/QuickSort/QuickSort.html',
+		],
+	},
+	{
+		projectName: 'TimesTable',
+		filePaths: [
 			'PersonalProjects/p5.js/TimesTable/TimesTable.js',
 			'PersonalProjects/p5.js/TimesTable/TimesTable.html',
 		],
