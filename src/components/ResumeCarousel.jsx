@@ -5,7 +5,7 @@ import ashImg from "../assets/ash.png";
 
 const slides = [
     {
-        title: "ASH",
+        title: "American Specialty Health",
         subtitle: ".NET 8/10 · SQL · Playwright",
         date: "May 2025 — Present",
         description:
