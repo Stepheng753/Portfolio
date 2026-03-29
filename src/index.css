@@ -298,6 +298,7 @@ body {
     .carousel-content {
         flex: none;
         width: 100%;
+        padding-left: 0;
     }
     .carousel-title {
         font-size: 2rem;
@@ -311,5 +312,8 @@ body {
     }
     .carousel-progress-label {
         font-size: 0.65rem;
+    }
+    .carousel-image-container {
+        margin-right: 0;
     }
 }
