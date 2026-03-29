@@ -1,13 +1,13 @@
 <div align="center">
   
-# 👨‍💻 Stephen Giang Portfolio
-**Engineering the Future of Automation and Web Development.**
+# 🎨 Portfolio v4.0
+**Luxury Aesthetics. High-Performance Engineering. Personal Hub.**
 
-[![About Me](https://img.shields.io/badge/Developer-Stephen_Giang-blue?style=for-the-badge)](https://stepheng753.com/)
-[![Focus](https://img.shields.io/badge/Specialty-Full_Stack_%26_Automation-orange?style=for-the-badge)](https://stepheng753.com/)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://stepheng753.com/)
+[![Project Status](https://img.shields.io/badge/Project_Status-Active-success?style=for-the-badge)](https://github.com/stepheng753/Portfolio)
+[![Version](https://img.shields.io/badge/Version-4.0.1-informational?style=for-the-badge)](https://github.com/stepheng753/Portfolio)
+[![License](https://img.shields.io/badge/License-Private-inactive?style=for-the-badge)](https://github.com/stepheng753/Portfolio)
 
-*A dynamic showcase of professional projects, technological expertise, and a commitment to advancing the frontier of intelligent business solutions.*
+*Version 4.0 of my professional portfolio, engineered for speed, SEO, and visual excellence. A showcase of full-stack expertise, AI automation, and interactive design.*
 
 ---
 
@@ -15,57 +15,76 @@
 
 ## 🌟 Core Identity
 
-I am a software engineer and automation specialist dedicated to building systems that matter. My work focuses on bridging the gap between high-level business logic and low-level code through robust architecture and intelligent orchestration.
+A high-performance personal hub designed to bridge the gap between technical engineering and premium user experience. This platform serves as the central node for my professional identity, connecting my work in software development, AI automation, and private education.
 
-### 💼 Operational Philosophy
-- **Clean and Maintainable Code:** Every project is an exercise in engineering discipline, prioritizing readability and performance.
-- **Automation First:** If a task is repetitive, it's a candidate for a workflow. I build systems that free up humans for higher-level creative work.
+### 💼 Engineering Philosophy
+- **Visual-First Strategy:** Prioritizing sleek, glassmorphism-inspired dark mode aesthetics with smooth Framer Motion interactions to create a premium feel.
+- **Performance Driven:** Utilizing the cutting-edge Vite 8 and React 19 toolchain for instantaneous load times and a highly responsive user interface.
 
 ---
 
 ## 🛠️ Technology Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
+  <img src="https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer"/>
+  <img src="https://img.shields.io/badge/Lucide_React-FF4433?style=for-the-badge&logo=lucide&logoColor=white" alt="Lucide"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node"/>
 </p>
 
 ### Key Focus Areas
-1. **Full-Stack Development:** Building responsive, modern web applications from the ground up.
-2. **AI Workflow Automation:** Orchestrating complex business tasks using tools like n8n and custom Python/Node.js nodes.
-3. **Product Design:** Fusing technical capability with user-centric design to create seamless digital products.
+1. **Interactive Storytelling:** Using advanced animations to guide visitors through my professional journey and projects seamlessly.
+2. **SEO Excellence:** Implementing comprehensive metadata and JSON-LD structured data to ensure maximum search engine visibility and accessibility.
+3. **Automated CI/CD:** Maintaining a robust deployment pipeline using optimized GitHub Actions for seamless FTP delivery to Hostinger.
 
 ---
 
 ## 🏗️ Repository Structure
 
-This repository acts as the central hub for my personal portfolio over time:
+This project follows a modern monorepo-adjacent structure, separating logic from static assets for optimal build performance.
 
-| Version | Description | Technology |
+| Directory | Description | Type |
 | :--- | :--- | :--- |
-| **`Website-v.3.0`** | Current flagship portfolio featuring optimized media and clean layouts. | `HTML / CSS / JS` |
-| **`Website-v.2.0`** | Iterative version focusing on mobile responsiveness and interactive elements. | `HTML / CSS` |
-| **`Website-v.1.1`** | Enhanced baseline with refined project cards and styling. | `HTML / CSS` |
-| **`Website-v.1.0`** | Initial baseline personal project showcase. | `HTML / CSS` |
+| **`/.github`** | CI/CD workflows and deployment automation | YAML |
+| **`/public`** | Raw assets, static icons, and global images | Static |
+| **`/src`** | Main application logic, router, and global styles | React/JS |
+| **`/src/assets`** | Component-specific media assets and local images | Media |
+| **`/src/components`** | Reusable UI components and visual design system | Components |
 
 ---
 
-## 🚀 Running the Application
+## 🚀 Getting Started
 
-Each version of the portfolio is a static web application. They can be viewed by navigating into their respective directories and opening the `index.html` file.
+Ensure you have **Node.js 22** and **npm** installed on your system before beginning local development.
 
 ### ⚡ Quick Start
 
+Clone the repository and spin up the development server in a single step:
+
 ```bash
-# To serve the latest version
-cd Website-v.3.0
-python3 -m http.server 3000
+git clone https://github.com/stepheng753/Portfolio.git && cd Portfolio && npm install && npm run dev
+```
+
+### ⚙️ Manual Start
+
+For detailed setup, follow these steps:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
 ---
 
 <div align="center">
-  <i>Developed and engineered by Stephen Giang & NextFlow Solutions.</i>
+  <i>Developed and engineered by Stephen Giang with Antigravity</i><br/>
+  <a href="https://stepheng753.com">Visit Live Site →</a>
 </div>
